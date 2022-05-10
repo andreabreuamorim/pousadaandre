@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+
+
+/* menu */
+
+.topo {
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed; 
+    display: flex;
+    
+    
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ffffff2f;
+    
+    
+    
+}
+
+.items-menu ul {
+    list-style: none;
+    display: flex;
+    margin-right: 80px;
+    
+}
+
+.items-menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.items-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black
+    
+    
+    
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: black;
+    
+}
+
+.logo span {
+    color: rgba(0, 110, 255, 0.781);
+    font-style: oblique;
+}
+
+#btn {
+    background-color: #2DA68F;
+    padding: 10px;
+    border-radius: 5px;
+    color: white; 
+}
+
+#btn:hover {
+    background-color: #0082BA;
+    transition: .9s;
+    
+}
+
+.items-menu .btn a {
+    color: #ffffff;
+}
+
+
+
+
+
+
+.image {
+    background-image: url(../pousada/image/img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.content-main{
+    color: #fff;
+    font-size: 28px;
+    background-color: #0a9077b3;
+    border: 1px solid;
+    padding: 0 20px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.content-main p{
+    font-weight: bold;
+}
+
+
+.bem-vindo {
+    width: 100%;
+    height: 30vh;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.bem-vindo h3 {
+    font-size: 3em;
+    margin-bottom: 36px;
+}
+
+.bem-vindo p {
+
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.bem-vindo .paragrafo {
+    line-height: 30px;
+}
+
+
+.galery {
+    width: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 20px;
+}
+
+.galery img {
+    cursor: pointer;
+    
+}
+
+.galery img:hover {
+    transition: .3s;
+    padding-top: 5px;
+    
+    
+}
+
+.photos {
+    margin: 10px auto;
+}
+
+.photos a {
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.photos a p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.photos p {
+    padding-bottom: 1em;
+    border-bottom: 2px solid #0082BA;
+}
+
+#rotas {
+    text-align: center;
+}
+
+#rotas h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+#rotas p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.rota-iframe{
+    margin-top: 2em;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.sobre h3 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: 1.5em;
+    
+}
+
+.sobre p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    margin-top: 5em;
+    width: 100%;
+}
+
+.descricao {
+    display: flex;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.descricao-conteudo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+
+.descricao-img {
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.descricao-conteudo p {
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.descricao-conteudo h3 {
+    border-bottom: 1px solid #0082BA;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #388EFF;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: #0082BA;
+    position: relative;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
